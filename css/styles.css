@@ -1,1 +1,48 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navbar */
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px; /* Adjust as needed */
+    height: 100%; /* Cover the full height of the viewport */
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    padding-top: 20px; /* Example padding */
+}
+
+/* Style for the navbar links */
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar ul li {
+    margin-bottom: 10px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #555; /* Example hover background color */
+}
+/* Example media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for smaller screens */
+    /* For example: */
+    #navbar {
+        width: 100%; /* Adjust as needed */
+    }
+}
 
