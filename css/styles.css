@@ -11,8 +11,8 @@
     left: 0;
     top: 0;
     height: 100vh; /* Cover the full height of the viewport */
-    background-color: #f0f0f0; /* Same color as body */
-    color: #333; /* Text color */
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
     width: 200px; /* Adjust as needed */
     z-index: 1; /* Ensure the navbar is above other content */
     overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
@@ -36,12 +36,18 @@
 }
 
 #navbar ul li a:hover {
-    background-color: #ccc; /* Hover background color */
+    background-color: #555; /* Example hover background color */
 }
 
 /* Adjust body margin to prevent content from being hidden behind the navbar */
 body {
     margin-left: 200px; /* Same as navbar width */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+}
+
+/* Style for the main content */
+#main-doc {
+    padding: 20px;
 }
 
 /* Media query for screens smaller than 600px */
